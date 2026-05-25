@@ -3,9 +3,7 @@ import {
   useState
 } from 'react'
 
-import {
-  useNavigate
-} from 'react-router-dom'
+
 
 import API
 from '../services/api'
@@ -34,8 +32,6 @@ function CheckoutPage() {
 setOrderPlaced] =
 useState(false)
 
-  const navigate =
-  useNavigate()
 
   useEffect(() => {
     fetchCart()
