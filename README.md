@@ -185,17 +185,29 @@ WELCOME20 → 20% OFF
 
 ## Screenshots
 
-Add screenshots of:
+### Home Page
 
-1. Home Page
-2.  
-3. Product Page
-4. Cart
-5. Checkout
-6. Admin Panel
-7. Dashboard
-8. Order Tracking
+![Home Page](screenshots/homepage.png)
 
+### Cart
+
+![Cart](screenshots/cart.png)
+
+### Checkout
+
+![Checkout](screenshots/checkout.png)
+
+### Admin Panel
+
+![Admin Panel](screenshots/adminpanel.png)
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Order Tracking
+
+![Order Tracking](screenshots/ordertracking.png)
 ---
 
 ## Author
