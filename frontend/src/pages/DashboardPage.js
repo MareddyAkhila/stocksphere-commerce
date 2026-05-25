@@ -25,7 +25,7 @@ function DashboardPage() {
 
       const response =
       await API.get(
-        '/dashboard/summary'
+        '/dashboard'
       )
 
       setDashboard(
