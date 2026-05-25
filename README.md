@@ -6,7 +6,6 @@ A full-stack e-commerce order and inventory management platform built using **Re
 
 StockSphere Commerce is a professional e-commerce platform where customers can browse products, add items to cart, place orders, and track order status. Admins can manage products, stock, and monitor dashboard analytics.
 
----
 
 ## Features
 
