@@ -34,13 +34,15 @@ function HomePage() {
   useState('')
 
   useEffect(() => {
-    fetchProducts()
-  }, [
-    search,
-    category,
-    availability,
-    priceRange
-  ])
+  fetchProducts()
+
+  // eslint-disable-next-line
+}, [
+  search,
+  category,
+  availability,
+  priceRange
+])
 
   const fetchProducts =
   async () => {

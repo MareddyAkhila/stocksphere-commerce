@@ -14,8 +14,10 @@ function ProductDetailsPage() {
   useState(null)
 
   useEffect(() => {
-    fetchProduct()
-  }, [id])
+  fetchProduct()
+
+  // eslint-disable-next-line
+}, [id])
 
   const fetchProduct = async () => {
 
