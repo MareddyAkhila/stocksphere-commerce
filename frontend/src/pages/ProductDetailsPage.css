@@ -1,0 +1,39 @@
+.details-container {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  align-items: center;
+}
+
+.details-container img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.details-info h1 {
+  margin-bottom: 20px;
+}
+
+.details-info p {
+  margin: 15px 0;
+}
+
+.details-info button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+  .details-container {
+    flex-direction: column;
+  }
+
+  .details-container img {
+    width: 100%;
+  }
+}
